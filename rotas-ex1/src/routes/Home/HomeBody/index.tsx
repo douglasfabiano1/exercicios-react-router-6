@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Button from "../../../components/Header/Button";
 import Card from "../../../components/Header/Card";
 
@@ -11,7 +12,9 @@ export default function HomeBody() {
             <Card title="Página inicial" />
           </div>
           <div className="dflex">
-            <Button text="Ver promoção" />
+            <Link to="/promotion">
+              <Button text="Ver promoção" />
+            </Link>
           </div>
         </div>
       </section>
