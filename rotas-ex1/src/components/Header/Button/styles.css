@@ -1,0 +1,13 @@
+.button {
+  background-color: var(--color-bg-secondary);
+  color: var(--color-font-secondary);
+  font-size: 16px;
+  height: 45px;
+  padding: 0 20px;
+  border-radius: 6px;
+  font-weight: 700;
+  
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
